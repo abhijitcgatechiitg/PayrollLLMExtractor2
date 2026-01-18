@@ -1,0 +1,14 @@
+{
+  "document_name": "PR-Register.pdf",
+  "total_pages": 2,
+  "total_employees": 13,
+  "employees_page_1": 9,
+  "employees_page_2": 4,
+  "company": "The Sample Company",
+  "payroll_number": "198",
+  "pay_period": "03/23/14 - 03/29/14",
+  "check_date": "04/04/14",
+  "annotation_date": "2026-01-18",
+  "annotated_by": "Manual Review",
+  "notes": "Ground truth created from visual inspection of PDF"
+}

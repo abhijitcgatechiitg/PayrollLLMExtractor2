@@ -1,0 +1,3000 @@
+{
+  "timestamp": "2026-01-18T21:45:56.853773",
+  "summary": {
+    "total_fields": 498,
+    "correct_fields": 498,
+    "incorrect_fields": 0,
+    "missing_fields": 0,
+    "accuracy_percentage": 100.0
+  },
+  "field_details": [
+    {
+      "field_path": "metadata.company_name",
+      "extracted_value": "The Sample Company",
+      "ground_truth_value": "The Sample Company",
+      "status": "correct"
+    },
+    {
+      "field_path": "metadata.company_number",
+      "extracted_value": "99",
+      "ground_truth_value": "99",
+      "status": "correct"
+    },
+    {
+      "field_path": "metadata.payroll_number",
+      "extracted_value": "198",
+      "ground_truth_value": "198",
+      "status": "correct"
+    },
+    {
+      "field_path": "metadata.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "metadata.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "metadata.check_date",
+      "extracted_value": "04/04/14",
+      "ground_truth_value": "04/04/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "metadata.page_number",
+      "extracted_value": 1,
+      "ground_truth_value": 1,
+      "status": "correct"
+    },
+    {
+      "field_path": "company_totals.com_period_start_date",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "company_totals.com_period_end_date",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.employee_number",
+      "extracted_value": "2001015",
+      "ground_truth_value": "2001015",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.fullname",
+      "extracted_value": "Golikowski, Roger D.",
+      "ground_truth_value": "Golikowski, Roger D.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.ssn",
+      "extracted_value": "*******6132",
+      "ground_truth_value": "*******6132",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.department_number",
+      "extracted_value": "1",
+      "ground_truth_value": "1",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.tax_status_federal",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.tax_exemptions_federal",
+      "extracted_value": "0",
+      "ground_truth_value": "0",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.tax_status_state",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.tax_exemptions_state",
+      "extracted_value": "0",
+      "ground_truth_value": "0",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].rate",
+      "extracted_value": "19.75",
+      "ground_truth_value": "19.75",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "790.00",
+      "ground_truth_value": "790.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "280.00",
+      "ground_truth_value": "280.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "5530.00",
+      "ground_truth_value": "5530.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_deductions[0].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_deductions[0].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "23.70",
+      "ground_truth_value": "23.70",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "165.90",
+      "ground_truth_value": "165.90",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[0].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "48.98",
+      "ground_truth_value": "48.98",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "342.86",
+      "ground_truth_value": "342.86",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "46.54",
+      "ground_truth_value": "46.54",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "325.80",
+      "ground_truth_value": "325.80",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "10.88",
+      "ground_truth_value": "10.88",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "76.20",
+      "ground_truth_value": "76.20",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "36.71",
+      "ground_truth_value": "36.71",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "256.93",
+      "ground_truth_value": "256.93",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[0].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.employee_number",
+      "extracted_value": "2001016",
+      "ground_truth_value": "2001016",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.fullname",
+      "extracted_value": "Lively, Robert B.",
+      "ground_truth_value": "Lively, Robert B.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.ssn",
+      "extracted_value": "*******4321",
+      "ground_truth_value": "*******4321",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.department_number",
+      "extracted_value": "1",
+      "ground_truth_value": "1",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.tax_status_federal",
+      "extracted_value": "Single",
+      "ground_truth_value": "Single",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.tax_exemptions_federal",
+      "extracted_value": "3",
+      "ground_truth_value": "3",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.tax_status_state",
+      "extracted_value": "Single",
+      "ground_truth_value": "Single",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.tax_exemptions_state",
+      "extracted_value": "3",
+      "ground_truth_value": "3",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].rate",
+      "extracted_value": "21.50",
+      "ground_truth_value": "21.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "860.00",
+      "ground_truth_value": "860.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "280.00",
+      "ground_truth_value": "280.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "6020.00",
+      "ground_truth_value": "6020.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[0].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[0].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "94.61",
+      "ground_truth_value": "94.61",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "662.27",
+      "ground_truth_value": "662.27",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[1].deduction_code",
+      "extracted_value": "3-CAF Dental",
+      "ground_truth_value": "3-CAF Dental",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[1].deduction_description",
+      "extracted_value": "CAF Dental",
+      "ground_truth_value": "CAF Dental",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "102.76",
+      "ground_truth_value": "102.76",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "14.68",
+      "ground_truth_value": "14.68",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[1].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "63.21",
+      "ground_truth_value": "63.21",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "442.47",
+      "ground_truth_value": "442.47",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "46.54",
+      "ground_truth_value": "46.54",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "325.80",
+      "ground_truth_value": "325.80",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "10.88",
+      "ground_truth_value": "10.88",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "76.20",
+      "ground_truth_value": "76.20",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "29.65",
+      "ground_truth_value": "29.65",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "207.55",
+      "ground_truth_value": "207.55",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[1].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.employee_number",
+      "extracted_value": "2001017",
+      "ground_truth_value": "2001017",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.fullname",
+      "extracted_value": "McCue, Kevin T.",
+      "ground_truth_value": "McCue, Kevin T.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.ssn",
+      "extracted_value": "*******1313",
+      "ground_truth_value": "*******1313",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.department_number",
+      "extracted_value": "1",
+      "ground_truth_value": "1",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.tax_status_federal",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.tax_exemptions_federal",
+      "extracted_value": "0",
+      "ground_truth_value": "0",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.tax_status_state",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.tax_exemptions_state",
+      "extracted_value": "0",
+      "ground_truth_value": "0",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].rate",
+      "extracted_value": "22.00",
+      "ground_truth_value": "22.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "880.00",
+      "ground_truth_value": "880.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "280.00",
+      "ground_truth_value": "280.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "6160.00",
+      "ground_truth_value": "6160.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[0].deduction_code",
+      "extracted_value": "31-Child Support",
+      "ground_truth_value": "31-Child Support",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[0].deduction_description",
+      "extracted_value": "Child Support",
+      "ground_truth_value": "Child Support",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "350.10",
+      "ground_truth_value": "350.10",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "2100.61",
+      "ground_truth_value": "2100.61",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[1].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[1].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "125.00",
+      "ground_truth_value": "125.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "753.44",
+      "ground_truth_value": "753.44",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[2].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "79.27",
+      "ground_truth_value": "79.27",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "554.89",
+      "ground_truth_value": "554.89",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "50.05",
+      "ground_truth_value": "50.05",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "350.37",
+      "ground_truth_value": "350.37",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "11.71",
+      "ground_truth_value": "11.71",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "81.95",
+      "ground_truth_value": "81.95",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "38.77",
+      "ground_truth_value": "38.77",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "271.39",
+      "ground_truth_value": "271.39",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[2].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.employee_number",
+      "extracted_value": "2001018",
+      "ground_truth_value": "2001018",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.fullname",
+      "extracted_value": "Richards, Chris G.",
+      "ground_truth_value": "Richards, Chris G.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.ssn",
+      "extracted_value": "*******1212",
+      "ground_truth_value": "*******1212",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.department_number",
+      "extracted_value": "1",
+      "ground_truth_value": "1",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.tax_status_federal",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.tax_exemptions_federal",
+      "extracted_value": "3",
+      "ground_truth_value": "3",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.tax_status_state",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.tax_exemptions_state",
+      "extracted_value": "3",
+      "ground_truth_value": "3",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].rate",
+      "extracted_value": "20.75",
+      "ground_truth_value": "20.75",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "830.00",
+      "ground_truth_value": "830.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "280.00",
+      "ground_truth_value": "280.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "5810.00",
+      "ground_truth_value": "5810.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[0].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[0].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "125.00",
+      "ground_truth_value": "125.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "753.44",
+      "ground_truth_value": "753.44",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[1].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[1].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "41.50",
+      "ground_truth_value": "41.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "290.50",
+      "ground_truth_value": "290.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[3].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "27.31",
+      "ground_truth_value": "27.31",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "203.33",
+      "ground_truth_value": "203.33",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "43.71",
+      "ground_truth_value": "43.71",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "313.51",
+      "ground_truth_value": "313.51",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "10.22",
+      "ground_truth_value": "10.22",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "73.32",
+      "ground_truth_value": "73.32",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "25.30",
+      "ground_truth_value": "25.30",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "182.94",
+      "ground_truth_value": "182.94",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[3].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.employee_number",
+      "extracted_value": "2001019",
+      "ground_truth_value": "2001019",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.fullname",
+      "extracted_value": "Bird, Jonathon",
+      "ground_truth_value": "Bird, Jonathon",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.ssn",
+      "extracted_value": "*******1987",
+      "ground_truth_value": "*******1987",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.department_number",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.tax_status_federal",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.tax_exemptions_federal",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.tax_status_state",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.tax_exemptions_state",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].rate",
+      "extracted_value": "23.50",
+      "ground_truth_value": "23.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "940.00",
+      "ground_truth_value": "940.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "240.00",
+      "ground_truth_value": "240.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "5640.00",
+      "ground_truth_value": "5640.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].earning_code",
+      "extracted_value": "1-Vacation Pay",
+      "ground_truth_value": "1-Vacation Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].earning_description",
+      "extracted_value": "Vacation Pay",
+      "ground_truth_value": "Vacation Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].rate",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].earning_qtd_amount",
+      "extracted_value": "940.00",
+      "ground_truth_value": "940.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].earning_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_earnings[1].earning_ytd_amount",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[0].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[0].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "47.00",
+      "ground_truth_value": "47.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "329.00",
+      "ground_truth_value": "329.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[1].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[1].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "94.61",
+      "ground_truth_value": "94.61",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "756.88",
+      "ground_truth_value": "756.88",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "69.33",
+      "ground_truth_value": "69.33",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "485.31",
+      "ground_truth_value": "485.31",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "58.28",
+      "ground_truth_value": "58.28",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "407.96",
+      "ground_truth_value": "407.96",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "13.63",
+      "ground_truth_value": "13.63",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "95.41",
+      "ground_truth_value": "95.41",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "37.30",
+      "ground_truth_value": "37.30",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "261.10",
+      "ground_truth_value": "261.10",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[4].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.employee_number",
+      "extracted_value": "2001020",
+      "ground_truth_value": "2001020",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.fullname",
+      "extracted_value": "Fitzgibbons, James P.",
+      "ground_truth_value": "Fitzgibbons, James P.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.ssn",
+      "extracted_value": "*******7788",
+      "ground_truth_value": "*******7788",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.department_number",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.tax_status_federal",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.tax_exemptions_federal",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.tax_status_state",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.tax_exemptions_state",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].rate",
+      "extracted_value": "21.00",
+      "ground_truth_value": "21.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "24.00",
+      "ground_truth_value": "24.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "504.00",
+      "ground_truth_value": "504.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "200.00",
+      "ground_truth_value": "200.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "4200.00",
+      "ground_truth_value": "4200.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].earning_code",
+      "extracted_value": "2-Sick Pay",
+      "ground_truth_value": "2-Sick Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].earning_description",
+      "extracted_value": "Sick Pay",
+      "ground_truth_value": "Sick Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].rate",
+      "extracted_value": "5.50",
+      "ground_truth_value": "5.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].earning_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].earning_qtd_amount",
+      "extracted_value": "115.50",
+      "ground_truth_value": "115.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].earning_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_earnings[1].earning_ytd_amount",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[0].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[0].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "94.61",
+      "ground_truth_value": "94.61",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "756.88",
+      "ground_truth_value": "756.88",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[1].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[1].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "30.00",
+      "ground_truth_value": "30.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "240.00",
+      "ground_truth_value": "240.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "6.50",
+      "ground_truth_value": "6.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "80.35",
+      "ground_truth_value": "80.35",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "25.38",
+      "ground_truth_value": "25.38",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "220.63",
+      "ground_truth_value": "220.63",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "5.93",
+      "ground_truth_value": "5.93",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "51.60",
+      "ground_truth_value": "51.60",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "12.70",
+      "ground_truth_value": "12.70",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "115.22",
+      "ground_truth_value": "115.22",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[5].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.employee_number",
+      "extracted_value": "2001021",
+      "ground_truth_value": "2001021",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.fullname",
+      "extracted_value": "Bergeron, Patrick A.",
+      "ground_truth_value": "Bergeron, Patrick A.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.ssn",
+      "extracted_value": "*******1717",
+      "ground_truth_value": "*******1717",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.department_number",
+      "extracted_value": "3",
+      "ground_truth_value": "3",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.tax_status_federal",
+      "extracted_value": "Single",
+      "ground_truth_value": "Single",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.tax_exemptions_federal",
+      "extracted_value": "1",
+      "ground_truth_value": "1",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.tax_status_state",
+      "extracted_value": "Single",
+      "ground_truth_value": "Single",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.tax_exemptions_state",
+      "extracted_value": "1",
+      "ground_truth_value": "1",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].rate",
+      "extracted_value": "27.50",
+      "ground_truth_value": "27.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "1100.00",
+      "ground_truth_value": "1100.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "280.00",
+      "ground_truth_value": "280.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "7700.00",
+      "ground_truth_value": "7700.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].earning_code",
+      "extracted_value": "2-Sick Pay",
+      "ground_truth_value": "2-Sick Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].earning_description",
+      "extracted_value": "Sick Pay",
+      "ground_truth_value": "Sick Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].rate",
+      "extracted_value": "-5.50",
+      "ground_truth_value": "-5.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].earning_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].earning_qtd_amount",
+      "extracted_value": "-151.25",
+      "ground_truth_value": "-151.25",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].earning_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_earnings[1].earning_ytd_amount",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[0].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[0].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "77.00",
+      "ground_truth_value": "77.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "539.00",
+      "ground_truth_value": "539.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[1].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[1].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "280.00",
+      "ground_truth_value": "280.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "136.25",
+      "ground_truth_value": "136.25",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "915.94",
+      "ground_truth_value": "915.94",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "63.43",
+      "ground_truth_value": "63.43",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "434.61",
+      "ground_truth_value": "434.61",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "14.84",
+      "ground_truth_value": "14.84",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "101.64",
+      "ground_truth_value": "101.64",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "42.65",
+      "ground_truth_value": "42.65",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "291.28",
+      "ground_truth_value": "291.28",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[6].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.employee_number",
+      "extracted_value": "2001022",
+      "ground_truth_value": "2001022",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.fullname",
+      "extracted_value": "Hackett, Carl D.",
+      "ground_truth_value": "Hackett, Carl D.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.ssn",
+      "extracted_value": "*******7777",
+      "ground_truth_value": "*******7777",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.department_number",
+      "extracted_value": "4",
+      "ground_truth_value": "4",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.tax_status_federal",
+      "extracted_value": "Single",
+      "ground_truth_value": "Single",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.tax_exemptions_federal",
+      "extracted_value": "0",
+      "ground_truth_value": "0",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.tax_status_state",
+      "extracted_value": "Single",
+      "ground_truth_value": "Single",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.tax_exemptions_state",
+      "extracted_value": "0",
+      "ground_truth_value": "0",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].rate",
+      "extracted_value": "15.00",
+      "ground_truth_value": "15.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "16.00",
+      "ground_truth_value": "16.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "240.00",
+      "ground_truth_value": "240.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "112.00",
+      "ground_truth_value": "112.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "1680.00",
+      "ground_truth_value": "1680.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_deductions[0].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_deductions[0].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "15.00",
+      "ground_truth_value": "15.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "105.00",
+      "ground_truth_value": "105.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[7].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "18.53",
+      "ground_truth_value": "18.53",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "129.71",
+      "ground_truth_value": "129.71",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "14.88",
+      "ground_truth_value": "14.88",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "104.16",
+      "ground_truth_value": "104.16",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "3.48",
+      "ground_truth_value": "3.48",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "24.36",
+      "ground_truth_value": "24.36",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "10.75",
+      "ground_truth_value": "10.75",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "75.25",
+      "ground_truth_value": "75.25",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[7].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.employee_number",
+      "extracted_value": "2001023",
+      "ground_truth_value": "2001023",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.fullname",
+      "extracted_value": "Barrington, Emma V.",
+      "ground_truth_value": "Barrington, Emma V.",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.ssn",
+      "extracted_value": "*******1234",
+      "ground_truth_value": "*******1234",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.department_number",
+      "extracted_value": "5",
+      "ground_truth_value": "5",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.pay_frequency",
+      "extracted_value": "Weekly",
+      "ground_truth_value": "Weekly",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.payment_type",
+      "extracted_value": "DD",
+      "ground_truth_value": "DD",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.tax_status_federal",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.tax_exemptions_federal",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.tax_status_state",
+      "extracted_value": "Married",
+      "ground_truth_value": "Married",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.tax_exemptions_state",
+      "extracted_value": "2",
+      "ground_truth_value": "2",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.state",
+      "extracted_value": "MA",
+      "ground_truth_value": "MA",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.pay_period_start",
+      "extracted_value": "03/23/14",
+      "ground_truth_value": "03/23/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].employee_details.pay_period_end",
+      "extracted_value": "03/29/14",
+      "ground_truth_value": "03/29/14",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].earning_code",
+      "extracted_value": "0-Regular Pay",
+      "ground_truth_value": "0-Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].earning_description",
+      "extracted_value": "Regular Pay",
+      "ground_truth_value": "Regular Pay",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].rate",
+      "extracted_value": "21.25",
+      "ground_truth_value": "21.25",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].earning_qtd_hours",
+      "extracted_value": "40.00",
+      "ground_truth_value": "40.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].earning_qtd_amount",
+      "extracted_value": "850.00",
+      "ground_truth_value": "850.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].earning_ytd_hours",
+      "extracted_value": "320.00",
+      "ground_truth_value": "320.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_earnings[0].earning_ytd_amount",
+      "extracted_value": "6800.00",
+      "ground_truth_value": "6800.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[0].deduction_code",
+      "extracted_value": "1-Child Support",
+      "ground_truth_value": "1-Child Support",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[0].deduction_description",
+      "extracted_value": "Child Support",
+      "ground_truth_value": "Child Support",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[0].deduction_qtd_amount",
+      "extracted_value": "70.44",
+      "ground_truth_value": "70.44",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[0].deduction_ytd_amount",
+      "extracted_value": "422.64",
+      "ground_truth_value": "422.64",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[0].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[0].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[1].deduction_code",
+      "extracted_value": "2-CAF Medical",
+      "ground_truth_value": "2-CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[1].deduction_description",
+      "extracted_value": "CAF Medical",
+      "ground_truth_value": "CAF Medical",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[1].deduction_qtd_amount",
+      "extracted_value": "45.72",
+      "ground_truth_value": "45.72",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[1].deduction_ytd_amount",
+      "extracted_value": "365.76",
+      "ground_truth_value": "365.76",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[1].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[1].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[2].deduction_code",
+      "extracted_value": "4-401K Plan",
+      "ground_truth_value": "4-401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[2].deduction_description",
+      "extracted_value": "401K Plan",
+      "ground_truth_value": "401K Plan",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[2].deduction_qtd_amount",
+      "extracted_value": "25.50",
+      "ground_truth_value": "25.50",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[2].deduction_ytd_amount",
+      "extracted_value": "204.00",
+      "ground_truth_value": "204.00",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[2].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[2].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[3].deduction_code",
+      "extracted_value": "32-Mass Tax Lev",
+      "ground_truth_value": "32-Mass Tax Lev",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[3].deduction_description",
+      "extracted_value": "Massachusetts Tax Levy",
+      "ground_truth_value": "Massachusetts Tax Levy",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[3].deduction_qtd_amount",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[3].deduction_ytd_amount",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[3].deduction_qtd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_deductions[3].deduction_ytd_hours",
+      "extracted_value": null,
+      "ground_truth_value": null,
+      "status": "correct_null"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[0].tax_code",
+      "extracted_value": "Federal WH",
+      "ground_truth_value": "Federal WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[0].tax_description",
+      "extracted_value": "Federal Withholding",
+      "ground_truth_value": "Federal Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[0].tax_qtd_amount",
+      "extracted_value": "52.20",
+      "ground_truth_value": "52.20",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[0].tax_ytd_amount",
+      "extracted_value": "417.60",
+      "ground_truth_value": "417.60",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[0].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[1].tax_code",
+      "extracted_value": "OASDI",
+      "ground_truth_value": "OASDI",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[1].tax_description",
+      "extracted_value": "Social Security",
+      "ground_truth_value": "Social Security",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[1].tax_qtd_amount",
+      "extracted_value": "49.87",
+      "ground_truth_value": "49.87",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[1].tax_ytd_amount",
+      "extracted_value": "398.93",
+      "ground_truth_value": "398.93",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[1].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[2].tax_code",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[2].tax_description",
+      "extracted_value": "Medicare",
+      "ground_truth_value": "Medicare",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[2].tax_qtd_amount",
+      "extracted_value": "11.66",
+      "ground_truth_value": "11.66",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[2].tax_ytd_amount",
+      "extracted_value": "93.29",
+      "ground_truth_value": "93.29",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[2].tax_jurisdiction",
+      "extracted_value": "Federal",
+      "ground_truth_value": "Federal",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[3].tax_code",
+      "extracted_value": "MA: State WH",
+      "ground_truth_value": "MA: State WH",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[3].tax_description",
+      "extracted_value": "Massachusetts State Withholding",
+      "ground_truth_value": "Massachusetts State Withholding",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[3].tax_qtd_amount",
+      "extracted_value": "31.90",
+      "ground_truth_value": "31.90",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[3].tax_ytd_amount",
+      "extracted_value": "255.20",
+      "ground_truth_value": "255.20",
+      "status": "correct"
+    },
+    {
+      "field_path": "employee_info[8].balance_employee_tax[3].tax_jurisdiction",
+      "extracted_value": "State",
+      "ground_truth_value": "State",
+      "status": "correct"
+    }
+  ]
+}

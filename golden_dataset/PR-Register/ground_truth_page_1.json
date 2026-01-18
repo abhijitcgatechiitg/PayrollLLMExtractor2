@@ -1,0 +1,2466 @@
+{
+  "document_type": "PayrollRegister",
+  "metadata": {
+    "company_name": {
+      "value": "The Sample Company",
+      "confidence": 1.0
+    },
+    "company_number": {
+      "value": "99",
+      "confidence": 1.0
+    },
+    "payroll_number": {
+      "value": "198",
+      "confidence": 1.0
+    },
+    "pay_period_start": {
+      "value": "03/23/14",
+      "confidence": 1.0
+    },
+    "pay_period_end": {
+      "value": "03/29/14",
+      "confidence": 1.0
+    },
+    "check_date": {
+      "value": "04/04/14",
+      "confidence": 1.0
+    },
+    "page_number": {
+      "value": 1,
+      "confidence": 1.0
+    },
+    "extraction_timestamp": "2026-01-18T21:12:38.241059",
+    "source_file": "PR-Register"
+  },
+  "balance_employee_tax": [],
+  "balance_employer_tax": [],
+  "company_totals": {
+    "com_period_start_date": {
+      "value": null,
+      "confidence": 0.0
+    },
+    "com_period_end_date": {
+      "value": null,
+      "confidence": 0.0
+    },
+    "com_balance_earnings": [],
+    "com_balance_deductions": [],
+    "com_balance_employee_tax": [],
+    "com_balance_employer_tax": []
+  },
+  "employee_info": [
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001015",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Golikowski, Roger D.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******6132",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "1",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "0",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "0",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "19.75",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "790.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "280.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "5530.00",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "23.70",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "165.90",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "48.98",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "342.86",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "46.54",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "325.80",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "10.88",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "76.20",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "36.71",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "256.93",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "790.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "5530.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "596.04",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001016",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Lively, Robert B.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******4321",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "1",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Single",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "3",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Single",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "3",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "21.50",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "860.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "280.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "6020.00",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "94.61",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "662.27",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "3-CAF Dental",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Dental",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "102.76",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "14.68",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "63.21",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "442.47",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "46.54",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "325.80",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "10.88",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "76.20",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "29.65",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "207.55",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "860.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "6020.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "600.43",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001017",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "McCue, Kevin T.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******1313",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "1",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "0",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "0",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "22.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "880.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "280.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "6160.00",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "31-Child Support",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "Child Support",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "350.10",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "2100.61",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "125.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "753.44",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "79.27",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "554.89",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "50.05",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "350.37",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "11.71",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "81.95",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "38.77",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "271.39",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "880.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "6160.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "277.41",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001018",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Richards, Chris G.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******1212",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "1",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "3",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "3",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "20.75",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "830.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "280.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "5810.00",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "125.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "753.44",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "41.50",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "290.50",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "27.31",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "203.33",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "43.71",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "313.51",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "10.22",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "73.32",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "25.30",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "182.94",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "830.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "5810.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "556.96",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001019",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Bird, Jonathon",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******1987",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "23.50",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "940.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "240.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "5640.00",
+            "confidence": 1.0
+          }
+        },
+        {
+          "earning_code": {
+            "value": "1-Vacation Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Vacation Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "940.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "earning_ytd_amount": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "47.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "329.00",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "94.61",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "756.88",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "69.33",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "485.31",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "58.28",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "407.96",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "13.63",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "95.41",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "37.30",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "261.10",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "1880.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "6580.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "714.46",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001020",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Fitzgibbons, James P.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******7788",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "21.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "24.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "504.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "200.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "4200.00",
+            "confidence": 1.0
+          }
+        },
+        {
+          "earning_code": {
+            "value": "2-Sick Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Sick Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "5.50",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "earning_qtd_amount": {
+            "value": "115.50",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "earning_ytd_amount": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "94.61",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "756.88",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "30.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "240.00",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "6.50",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "80.35",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "25.38",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "220.63",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "5.93",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "51.60",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "12.70",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "115.22",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "619.50",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "4315.50",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "328.88",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001021",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Bergeron, Patrick A.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******1717",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "3",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Single",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "1",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Single",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "1",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "27.50",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "1100.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "280.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "7700.00",
+            "confidence": 1.0
+          }
+        },
+        {
+          "earning_code": {
+            "value": "2-Sick Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Sick Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "-5.50",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "earning_qtd_amount": {
+            "value": "-151.25",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "earning_ytd_amount": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "77.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "539.00",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "280.00",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "136.25",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "915.94",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "63.43",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "434.61",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "14.84",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "101.64",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "42.65",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "291.28",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "948.75",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "7548.75",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "725.83",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001022",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Hackett, Carl D.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******7777",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "4",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Single",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "0",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Single",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "0",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "15.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "16.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "240.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "112.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "1680.00",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "15.00",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "105.00",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "18.53",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "129.71",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "14.88",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "104.16",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "3.48",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "24.36",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "10.75",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "75.25",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "240.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "1680.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "177.36",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    },
+    {
+      "employee_details": {
+        "employee_number": {
+          "value": "2001023",
+          "confidence": 1.0
+        },
+        "fullname": {
+          "value": "Barrington, Emma V.",
+          "confidence": 1.0
+        },
+        "ssn": {
+          "value": "*******1234",
+          "confidence": 1.0
+        },
+        "department_number": {
+          "value": "5",
+          "confidence": 1.0
+        },
+        "pay_frequency": {
+          "value": "Weekly",
+          "confidence": 1.0
+        },
+        "payment_type": {
+          "value": "DD",
+          "confidence": 1.0
+        },
+        "tax_status_federal": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_federal": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "tax_status_state": {
+          "value": "Married",
+          "confidence": 1.0
+        },
+        "tax_exemptions_state": {
+          "value": "2",
+          "confidence": 1.0
+        },
+        "state": {
+          "value": "MA",
+          "confidence": 1.0
+        },
+        "pay_period_start": {
+          "value": "03/23/14",
+          "confidence": 1.0
+        },
+        "pay_period_end": {
+          "value": "03/29/14",
+          "confidence": 1.0
+        }
+      },
+      "balance_earnings": [
+        {
+          "earning_code": {
+            "value": "0-Regular Pay",
+            "confidence": 1.0
+          },
+          "earning_description": {
+            "value": "Regular Pay",
+            "confidence": 1.0
+          },
+          "rate": {
+            "value": "21.25",
+            "confidence": 1.0
+          },
+          "earning_qtd_hours": {
+            "value": "40.00",
+            "confidence": 1.0
+          },
+          "earning_qtd_amount": {
+            "value": "850.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_hours": {
+            "value": "320.00",
+            "confidence": 1.0
+          },
+          "earning_ytd_amount": {
+            "value": "6800.00",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "balance_deductions": [
+        {
+          "deduction_code": {
+            "value": "1-Child Support",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "Child Support",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "70.44",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "422.64",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "2-CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "CAF Medical",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "45.72",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "365.76",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "4-401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "401K Plan",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": "25.50",
+            "confidence": 1.0
+          },
+          "deduction_ytd_amount": {
+            "value": "204.00",
+            "confidence": 1.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        },
+        {
+          "deduction_code": {
+            "value": "32-Mass Tax Lev",
+            "confidence": 1.0
+          },
+          "deduction_description": {
+            "value": "Massachusetts Tax Levy",
+            "confidence": 1.0
+          },
+          "deduction_qtd_amount": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_amount": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_qtd_hours": {
+            "value": null,
+            "confidence": 0.0
+          },
+          "deduction_ytd_hours": {
+            "value": null,
+            "confidence": 0.0
+          }
+        }
+      ],
+      "balance_employee_tax": [
+        {
+          "tax_code": {
+            "value": "Federal WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Federal Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "52.20",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "417.60",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "OASDI",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Social Security",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "49.87",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "398.93",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Medicare",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "11.66",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "93.29",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "Federal",
+            "confidence": 1.0
+          }
+        },
+        {
+          "tax_code": {
+            "value": "MA: State WH",
+            "confidence": 1.0
+          },
+          "tax_description": {
+            "value": "Massachusetts State Withholding",
+            "confidence": 1.0
+          },
+          "tax_qtd_amount": {
+            "value": "31.90",
+            "confidence": 1.0
+          },
+          "tax_ytd_amount": {
+            "value": "255.20",
+            "confidence": 1.0
+          },
+          "tax_jurisdiction": {
+            "value": "State",
+            "confidence": 1.0
+          }
+        }
+      ],
+      "unmapped_items": {
+        "items": [
+          {
+            "field_name": "check_number",
+            "value": null,
+            "reason": "Field exists in interim JSON but not in global schema"
+          },
+          {
+            "field_name": "total_current_earnings",
+            "value": "850.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "total_ytd_earnings",
+            "value": "6800.00",
+            "reason": "Summary field not mapped to individual earnings"
+          },
+          {
+            "field_name": "net_pay",
+            "value": "451.71",
+            "reason": "Field exists in interim JSON but not in global schema"
+          }
+        ],
+        "reason": "Fields present in interim data but not defined in target global schema"
+      }
+    }
+  ],
+  "unmapped_items": {
+    "items": [
+      {
+        "field_name": "company_totals",
+        "value": "empty arrays",
+        "reason": "Company totals section exists in interim JSON but contains only empty arrays; no data to map"
+      }
+    ],
+    "reason": "Page-level unmapped items from interim JSON that could not be mapped to global schema"
+  }
+}
