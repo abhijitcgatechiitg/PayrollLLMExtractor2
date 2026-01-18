@@ -131,12 +131,3 @@ This is a specialized extraction system. For questions or suggestions, please op
 ## 📄 License
 
 This project is available for educational and research purposes.
-
-## 👤 Author
-
-**Akshit**  
-GitHub: [@abhijitcgatechiitg](https://github.com/abhijitcgatechiitg)
-
----
-
-Built with ❤️ using Claude AI
