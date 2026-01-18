@@ -1,0 +1,333 @@
+{
+  "page_metadata": {
+    "company_name": "The Sample Company",
+    "company_number": "99",
+    "payroll_number": "198",
+    "pay_period_start": "03/23/14",
+    "pay_period_end": "03/29/14",
+    "check_date": "04/04/14",
+    "page_number": 2
+  },
+  "employees": [
+    {
+      "employee_id": "2001024",
+      "employee_name": "Fournier, Eric K.",
+      "ssn": "*******1111",
+      "department": "5",
+      "check_number": null,
+      "payment_type": "DD",
+      "pay_frequency": "Weekly",
+      "tax_status_federal": "Single",
+      "tax_exemptions_federal": "1",
+      "tax_status_state": "Single",
+      "tax_exemptions_state": "1",
+      "state": "MA",
+      "earnings": [
+        {
+          "code": "0-Regular Pay",
+          "description": "Regular Pay",
+          "rate": "12.50",
+          "current_hours": "40.00",
+          "current_amount": "500.00",
+          "ytd_hours": "280.00",
+          "ytd_amount": "3,500.00"
+        }
+      ],
+      "deductions": [
+        {
+          "code": "4-401K Plan",
+          "description": "401K Plan",
+          "current_amount": "33.50",
+          "ytd_amount": "201.00",
+          "current_hours": null,
+          "ytd_hours": null
+        }
+      ],
+      "taxes": [
+        {
+          "code": "Federal WH",
+          "description": "Federal Withholding",
+          "current_amount": "48.39",
+          "ytd_amount": "338.73",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "OASDI",
+          "description": "Social Security",
+          "current_amount": "31.00",
+          "ytd_amount": "217.00",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "Medicare",
+          "description": "Medicare",
+          "current_amount": "7.25",
+          "ytd_amount": "50.75",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "MA: State WH",
+          "description": "Massachusetts State Withholding",
+          "current_amount": "19.61",
+          "ytd_amount": "137.27",
+          "jurisdiction": "State"
+        }
+      ],
+      "totals": {
+        "total_current_earnings": "500.00",
+        "total_ytd_earnings": "3,500.00",
+        "net_pay": "393.75"
+      }
+    },
+    {
+      "employee_id": "2001025",
+      "employee_name": "Fournier, Rick",
+      "ssn": "*******6789",
+      "department": "5",
+      "check_number": null,
+      "payment_type": "DD",
+      "pay_frequency": "Weekly",
+      "tax_status_federal": "Married",
+      "tax_exemptions_federal": "0",
+      "tax_status_state": "Married",
+      "tax_exemptions_state": "0",
+      "state": "MA",
+      "earnings": [
+        {
+          "code": "0-Regular Pay",
+          "description": "Regular Pay",
+          "rate": "16.75",
+          "current_hours": "40.00",
+          "current_amount": "670.00",
+          "ytd_hours": "240.00",
+          "ytd_amount": "4,020.00"
+        }
+      ],
+      "deductions": [
+        {
+          "code": "2-CAF Medical",
+          "description": "CAF Medical",
+          "current_amount": "95.43",
+          "ytd_amount": "668.01",
+          "current_hours": null,
+          "ytd_hours": null
+        },
+        {
+          "code": "M2-401(k) ER M",
+          "description": "401(k) Employer Match",
+          "current_amount": "40.20",
+          "ytd_amount": "6.70",
+          "current_hours": null,
+          "ytd_hours": null
+        }
+      ],
+      "taxes": [
+        {
+          "code": "Federal WH",
+          "description": "Federal Withholding",
+          "current_amount": "53.65",
+          "ytd_amount": "321.90",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "OASDI",
+          "description": "Social Security",
+          "current_amount": "41.54",
+          "ytd_amount": "249.24",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "Medicare",
+          "description": "Medicare",
+          "current_amount": "9.72",
+          "ytd_amount": "58.30",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "MA: State WH",
+          "description": "Massachusetts State Withholding",
+          "current_amount": "30.43",
+          "ytd_amount": "182.58",
+          "jurisdiction": "State"
+        }
+      ],
+      "totals": {
+        "total_current_earnings": "670.00",
+        "total_ytd_earnings": "4,020.00",
+        "net_pay": "501.16"
+      }
+    },
+    {
+      "employee_id": "2001026",
+      "employee_name": "Lebeau, Mary T.",
+      "ssn": "*******1010",
+      "department": "5",
+      "check_number": null,
+      "payment_type": "DD",
+      "pay_frequency": "Weekly",
+      "tax_status_federal": "Married",
+      "tax_exemptions_federal": "1",
+      "tax_status_state": "Married",
+      "tax_exemptions_state": "1",
+      "state": "MA",
+      "earnings": [
+        {
+          "code": "0-Regular Pay",
+          "description": "Regular Pay",
+          "rate": "17.00",
+          "current_hours": "40.00",
+          "current_amount": "680.00",
+          "ytd_hours": "280.00",
+          "ytd_amount": "4,760.00"
+        }
+      ],
+      "deductions": [
+        {
+          "code": "2-CAF Medical",
+          "description": "CAF Medical",
+          "current_amount": "94.61",
+          "ytd_amount": "1,135.32",
+          "current_hours": null,
+          "ytd_hours": null
+        },
+        {
+          "code": "4-401K Plan",
+          "description": "401K Plan",
+          "current_amount": "142.80",
+          "ytd_amount": "20.40",
+          "current_hours": null,
+          "ytd_hours": null
+        }
+      ],
+      "taxes": [
+        {
+          "code": "Federal WH",
+          "description": "Federal Withholding",
+          "current_amount": "32.57",
+          "ytd_amount": "227.99",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "OASDI",
+          "description": "Social Security",
+          "current_amount": "36.24",
+          "ytd_amount": "253.70",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "Medicare",
+          "description": "Medicare",
+          "current_amount": "8.48",
+          "ytd_amount": "59.34",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "MA: State WH",
+          "description": "Massachusetts State Withholding",
+          "current_amount": "22.61",
+          "ytd_amount": "158.27",
+          "jurisdiction": "State"
+        }
+      ],
+      "totals": {
+        "total_current_earnings": "680.00",
+        "total_ytd_earnings": "4,760.00",
+        "net_pay": "464.27"
+      }
+    },
+    {
+      "employee_id": "2001027",
+      "employee_name": "Sample, William M.",
+      "ssn": "*******4567",
+      "department": "5",
+      "check_number": null,
+      "payment_type": "DD",
+      "pay_frequency": "Weekly",
+      "tax_status_federal": "Married",
+      "tax_exemptions_federal": "3",
+      "tax_status_state": "Married",
+      "tax_exemptions_state": "3",
+      "state": "MA",
+      "earnings": [
+        {
+          "code": "0-Regular Pay",
+          "description": "Regular Pay",
+          "rate": "0.00",
+          "current_hours": null,
+          "current_amount": "0.00",
+          "ytd_hours": "8,783.98",
+          "ytd_amount": "25,550.00"
+        },
+        {
+          "code": "3-Bonus Pay",
+          "description": "Bonus Pay",
+          "rate": null,
+          "current_hours": null,
+          "current_amount": "3,650.00",
+          "ytd_hours": "2,800.00",
+          "ytd_amount": "25,200.00"
+        }
+      ],
+      "deductions": [
+        {
+          "code": "3-CAF Dental",
+          "description": "CAF Dental",
+          "current_amount": "176.16",
+          "ytd_amount": "14.68",
+          "current_hours": null,
+          "ytd_hours": null
+        },
+        {
+          "code": "4-401K Plan",
+          "description": "401K Plan",
+          "current_amount": "4,060.00",
+          "ytd_amount": "516.00",
+          "current_hours": null,
+          "ytd_hours": null
+        }
+      ],
+      "taxes": [
+        {
+          "code": "Federal WH",
+          "description": "Federal Withholding",
+          "current_amount": "1,329.95",
+          "ytd_amount": "8,783.98",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "OASDI",
+          "description": "Social Security",
+          "current_amount": "91.94",
+          "ytd_amount": "716.86",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "Medicare",
+          "description": "Medicare",
+          "current_amount": "91.94",
+          "ytd_amount": "716.86",
+          "jurisdiction": "Federal"
+        },
+        {
+          "code": "MA: State WH",
+          "description": "Massachusetts State Withholding",
+          "current_amount": "291.70",
+          "ytd_amount": "2,245.58",
+          "jurisdiction": "State"
+        }
+      ],
+      "totals": {
+        "total_current_earnings": "6,450.00",
+        "total_ytd_earnings": "50,750.00",
+        "net_pay": "4,111.12"
+      }
+    }
+  ],
+  "company_totals": {
+    "total_earnings": [],
+    "total_deductions": [],
+    "total_employee_taxes": [],
+    "total_employer_taxes": [],
+    "department_totals": []
+  }
+}

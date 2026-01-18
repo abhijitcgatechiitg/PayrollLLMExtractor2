@@ -1,0 +1,270 @@
+{
+  "section": "SFP",
+  "years": [
+    "2019",
+    "2018"
+  ],
+  "currency": "INR",
+  "items": [
+    {
+      "label_raw": "Share Capital",
+      "category_raw": "Equity",
+      "is_total": false,
+      "values": {
+        "2019": "70,910,990",
+        "2018": "70,910,990"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Reserves and Surplus",
+      "category_raw": "Equity",
+      "is_total": false,
+      "values": {
+        "2019": "1,488,693",
+        "2018": "40,298,434"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Long-term Borrowings",
+      "category_raw": "Non-current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Deferred tax liabilities (Net)",
+      "category_raw": "Non-current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Other Current Liabilities",
+      "category_raw": "Non-current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Long term Provision",
+      "category_raw": "Non-current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Short-term Borrowings",
+      "category_raw": "Current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "3,701,333",
+        "2018": "2,999,555"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Trade payables",
+      "category_raw": "Current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "680,396",
+        "2018": "530,432"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Other Current Liabilities",
+      "category_raw": "Current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "1,185,645",
+        "2018": "315,152"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Short-term Provisions",
+      "category_raw": "Current liabilities",
+      "is_total": false,
+      "values": {
+        "2019": "300,000",
+        "2018": "300,000"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "TOTAL",
+      "category_raw": "Equity and Liabilities",
+      "is_total": true,
+      "values": {
+        "2019": "78,267,057",
+        "2018": "115,354,562"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Proprety,Plant and Equipment",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Tangible assets",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "5,116,145",
+        "2018": "5,116,145"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Intangible Assets",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Intangible Assets under development",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": ""
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Capital Work in Progress",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": "35,409,934"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Less: Accumulated Depreciation",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "3,262,249",
+        "2018": "3,262,249"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Net Block",
+      "category_raw": "Non-current assets",
+      "is_total": true,
+      "values": {
+        "2019": "1,853,896",
+        "2018": "37,263,829"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Long-term Loans and Advances",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "700,113",
+        "2018": "650,350"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Other Non Current Assets",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "1,375,253",
+        "2018": "1,344,749"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Deferred tax Asset(Net)",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2019": "110,010",
+        "2018": "110,010"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Inventories",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2019": "",
+        "2018": "1,965,200"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Trade Receivables",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2019": "2,233,486",
+        "2018": "2,233,486"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Cash and Cash Equivelants",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2019": "1,904,455",
+        "2018": "2,564,569"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Short-term Loans and advances",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2019": "70,089,844",
+        "2018": "69,222,369"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "TOTAL",
+      "category_raw": "Assets",
+      "is_total": true,
+      "values": {
+        "2019": "78,267,057",
+        "2018": "115,354,562"
+      },
+      "extra": {}
+    }
+  ]
+}

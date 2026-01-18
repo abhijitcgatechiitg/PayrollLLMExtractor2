@@ -1,0 +1,24 @@
+{
+  "pdf_file": "sample_pdfs\\PR-Register.pdf",
+  "pdf_name": "PR-Register",
+  "timestamp": "2026-01-18T21:13:32.306622",
+  "total_pages": 2,
+  "successful_pages": 2,
+  "failed_pages": 0,
+  "results": [
+    {
+      "page": 1,
+      "status": "success",
+      "employees": 9,
+      "interim_path": "outputs\\PR-Register\\page_1\\interim.json",
+      "mapped_path": "outputs\\PR-Register\\page_1\\mapped.json"
+    },
+    {
+      "page": 2,
+      "status": "success",
+      "employees": 4,
+      "interim_path": "outputs\\PR-Register\\page_2\\interim.json",
+      "mapped_path": "outputs\\PR-Register\\page_2\\mapped.json"
+    }
+  ]
+}
